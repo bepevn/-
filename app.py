@@ -10,7 +10,7 @@ st.markdown("""<style>
 header[data-testid="stHeader"] {background:transparent;height:0;}
 footer {display:none;}
 </style>""", unsafe_allow_html=True)
-components.html(Path(__file__).with_name("game.html").read_text(encoding="utf-8"), height=800, scrolling=False)
+components.html(Path(__file__).with_name("game.html").read_text(encoding="utf-8"), height=820, scrolling=False)
 with st.expander("조작 / v5 모듈"):
     st.markdown("""
 - W 점프 / Q 대시 / E 궁극기 / R 산데비스탄 / T 전격 / C 속박 / F 상호작용.
